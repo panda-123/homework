@@ -1,0 +1,124 @@
+{
+  "uid" : "7871358f607dcd26",
+  "name" : "test_mul[大数据]",
+  "fullName" : "test_calc_by_param.TestCalcByParam#test_mul",
+  "historyId" : "1c70764250ec699d423a13ab53d054c0",
+  "time" : {
+    "start" : 1608030726280,
+    "stop" : 1608030726281,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "start",
+    "time" : {
+      "start" : 1608030726159,
+      "stop" : 1608030726160,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "start::0",
+    "time" : {
+      "start" : 1608030726352,
+      "stop" : 1608030726352,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "计算器"
+  }, {
+    "name" : "subSuite",
+    "value" : "乘法"
+  }, {
+    "name" : "story",
+    "value" : "乘法"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=3)"
+  }, {
+    "name" : "tag",
+    "value" : "mul"
+  }, {
+    "name" : "host",
+    "value" : "isuser-PC"
+  }, {
+    "name" : "thread",
+    "value" : "118884-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_calc_by_param"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "300"
+  }, {
+    "name" : "b",
+    "value" : "200"
+  }, {
+    "name" : "expect",
+    "value" : "60000"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c1ddb7e89513e982",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608030645024,
+        "stop" : 1608030645024,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6fb1c74f9e3b195c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608030425395,
+        "stop" : 1608030425397,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "a3b50f6d91195d01",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608030282100,
+        "stop" : 1608030282101,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "run(order=3)", "mul" ]
+  },
+  "source" : "7871358f607dcd26.json",
+  "parameterValues" : [ "300", "200", "60000" ]
+}

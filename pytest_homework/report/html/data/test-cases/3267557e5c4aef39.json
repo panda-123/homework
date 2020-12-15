@@ -1,0 +1,124 @@
+{
+  "uid" : "3267557e5c4aef39",
+  "name" : "test_sub[int]",
+  "fullName" : "test_calc_by_param.TestCalcByParam#test_sub",
+  "historyId" : "b36e677e8609245f22eff085cd93f6e6",
+  "time" : {
+    "start" : 1608030726253,
+    "stop" : 1608030726254,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "start",
+    "time" : {
+      "start" : 1608030726159,
+      "stop" : 1608030726160,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "start::0",
+    "time" : {
+      "start" : 1608030726352,
+      "stop" : 1608030726352,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "subSuite",
+    "value" : "减法"
+  }, {
+    "name" : "story",
+    "value" : "减法"
+  }, {
+    "name" : "suite",
+    "value" : "计算器"
+  }, {
+    "name" : "tag",
+    "value" : "sub"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
+    "name" : "host",
+    "value" : "isuser-PC"
+  }, {
+    "name" : "thread",
+    "value" : "118884-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_calc_by_param"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "3"
+  }, {
+    "name" : "b",
+    "value" : "5"
+  }, {
+    "name" : "expect",
+    "value" : "-2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cb4d0aa412cd0961",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608030644993,
+        "stop" : 1608030644993,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "26dfd7ddc41d266e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608030425324,
+        "stop" : 1608030425325,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "d5ae7980afc5e55e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608030282070,
+        "stop" : 1608030282071,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "sub", "run(order=2)" ]
+  },
+  "source" : "3267557e5c4aef39.json",
+  "parameterValues" : [ "3", "5", "-2" ]
+}
